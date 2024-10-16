@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Royale Report</title>
+   <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+ <body>
+    <h1>Royale Report</h1>
+    <div id="myGrid" class="ag-theme-quartz-dark" style="height: 500px"></div>
+ </body>
+ <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
+ <script src="script.js" defer></script>
+ <script type="module">
+   // Import the functions you need from the SDKs you need
+   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+   // TODO: Add SDKs for Firebase products that you want to use
+   // https://firebase.google.com/docs/web/setup#available-libraries
+ 
+   // Your web app's Firebase configuration
+   const firebaseConfig = {
+     apiKey: "AIzaSyDBo0EdCWD0qlp1dKIYdP8L7Z4T1z3WBeQ",
+     authDomain: "ethanace-royalereport.firebaseapp.com",
+     projectId: "ethanace-royalereport",
+     storageBucket: "ethanace-royalereport.appspot.com",
+     messagingSenderId: "891910429814",
+     appId: "1:891910429814:web:180cbea1fde9c37bba5357"
+   };
+ 
+   // Initialize Firebase
+   const app = initializeApp(firebaseConfig);
+ </script>
+</html>
