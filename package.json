@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "ag-grid-community": "^32.2.2",
     "firebase": "^10.14.1",
     "firebaseui": "^6.1.0"
   }

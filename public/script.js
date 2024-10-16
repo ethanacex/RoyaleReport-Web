@@ -1,3 +1,9 @@
+// import { auth } from 'firebase';
+// import { auth as _auth } from 'firebaseui';
+
+// // Initialize the FirebaseUI Widget using Firebase.
+// var ui = new _auth.AuthUI(auth());
+
 // Row Data Interface
 
 // Grid API: Access to Grid API methods

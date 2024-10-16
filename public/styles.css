@@ -1,9 +1,18 @@
 h1 {
-    font-family: 'Nunito Sans';
-    font-size: 10vw;
-    color: white;
+    font-size: 8vw;
 }
 
 body {
+    font-family: 'Nunito Sans';
+    color: white;
     background-color: rgb(20,29,44);
+}
+
+input, textarea {
+    border-radius: 5px;   
+}
+  
+#col1, #col2 {
+    flex: 1; /* Makes both divs take equal width */
+    display: flex;
 }

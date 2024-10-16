@@ -7,13 +7,24 @@
    <link rel="stylesheet" href="styles.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
  <body>
-    <h1>Royale Report</h1>
+   <div>
+      <h1>Royale Report</h1>
     <div id="myGrid" class="ag-theme-quartz-dark" style="height: 500px"></div>
+   </div>
+    <div id="col1">
+      <p>IP Address</p>
+      <input type="text" id="ip">
+    </div>
+    <div id="col2">
+      <p>Auth Token</p>
+      <input type="text" id="auth">
+    </div>
  </body>
  <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
- <script src="script.js" defer></script>
+ <script type="module" src="script.js"></script>
  <script type="module">
    // Import the functions you need from the SDKs you need
    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
@@ -33,4 +44,5 @@
    // Initialize Firebase
    const app = initializeApp(firebaseConfig);
  </script>
+ <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
 </html>
